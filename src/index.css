@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: system-ui;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.commandor {
+  height: 10vh;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 50px;
+  font-size: 20px;
+}
+
+.grid {
+  display: grid;
+}
+
+.square {
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  min-height: 50px;
+  font-size: 20px;
+}
+.button {
+  min-height: 50px;
+  font-size: 20px;
+  width: 50px;
+}
+
+.btn1 {
+  margin-left: 10px;
+}
+.btn2 {
+  margin-right: 20px;
+}
